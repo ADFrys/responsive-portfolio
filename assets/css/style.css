@@ -105,8 +105,10 @@ body {
 	border: 2px solid #dddddd;
 	width: 650px;
 	float: left;
-	padding: 10px;
-	margin-bottom: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 50px;
+	margin-bottom: 150px;
 }
 
 hr {
@@ -132,6 +134,7 @@ hr {
 	height: 180px;
 	position: absolute;
 	margin-left: 690px;
+	margin-bottom: 150px;
 	background-color: #ffffff;
 	border: 2px solid #dddddd;
 	text-align: center;
@@ -184,15 +187,21 @@ textarea {
 	font-size: 15px;
 	width: 100%;
 	position: fixed;
-	margin-top: 50px;
+	margin-top: 75px;
 	bottom: 0;
 	left: 0;
+}
+
+@media screen and (max-width: 980px) {
+
 }
 
 @media screen and (max-width: 768px) {
 	
 	.main-content {
 		width: 100%;
+		padding: 20px;
+		margin-bottom: 20px;
 	}
 
 	.header {
@@ -200,26 +209,41 @@ textarea {
 	}
 
 	.main-container {
-		width: 60%;
+		width: 100%;
+		padding-bottom: 20px;
 		
 	}
 
 	.sidebar {
-		width: 30%;
-		margin-left: 65%
-		
-	}
-
-	.image_bio img {
-		width: 50%;
-		
-	}
-
-	.Bioparagraph p {
 		width: 100%;
+		margin-left: 0px;
+		position: static;
+		margin-top: -100px;
+		text-align: left;
+		padding-left: 20px;
+	}
+
+	.sidebar hr {
+	margin-bottom: 20px;
+	text-align: left;
+	margin-left: 0px;
+}
+
+/*	.image_bio img {
+		width: 50%;*/
+	}
+
+	/*.Bioparagraph p {
+		width: 100%;*/
 
 	}
 
+}
 
+@media screen and (max-width: 640px) {
 
+	.header {
+		display: static;
+	}
+	
 }
