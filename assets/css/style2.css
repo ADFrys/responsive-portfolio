@@ -156,7 +156,8 @@
 	line-height: 35px;
 }
 
-@media screen and (max-width: 980px) and (min-width: 769px){
+
+@media screen and (max-width: 980px) and (min-width: 641px){
 
 	.hangman {
 		clear: both;

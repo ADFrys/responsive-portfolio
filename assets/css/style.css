@@ -275,6 +275,10 @@ textarea {
 		
 	}
 
+	.main-container img {
+		width: 30%;
+	}
+
 	.sidebar {
 		width: 90%;
 		margin-left: 0px;
