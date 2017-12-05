@@ -156,3 +156,135 @@
 	line-height: 35px;
 }
 
+@media screen and (max-width: 980px) and (min-width: 769px){
+
+	.hangman {
+		clear: both;
+		width: 100%;
+		padding: 0px 0px;
+		margin: 0 auto;
+	}
+
+	.hangman h5 {
+		width: 97%;
+	}
+
+	.RPG {
+		clear: none;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		padding: 0px 0px;
+	}
+
+	.RPG h5 {
+		width: 97%;
+	}
+
+	.triviagame {
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		margin-bottom: 0px;
+		padding: 0px 0px;
+	}
+
+	.triviagame h5 {
+		width: 97%;
+	}
+
+	.rutgers {
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		margin-bottom: 0px;
+		padding: 0px 0px
+	}
+
+	.rutgers h5 {
+		width: 97%;
+	}
+
+	.rockpaper {
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		padding: 0px 0px;
+	}
+
+	.rockpaper h5 {
+		width: 97%;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	.hangman {
+		clear: both;
+		width: 100%;
+		padding: 0px 0px;
+		margin: 0 auto;
+	}
+
+	.hangman h5 {
+		width: 97%;
+	}
+
+	.RPG {
+		clear: none;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		padding: 0px 0px;
+	}
+
+	.RPG h5 {
+		width: 97%;
+	}
+
+	.triviagame {
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		margin-bottom: 0px;
+		padding: 0px 0px;
+	}
+
+	.triviagame h5 {
+		width: 97%;
+	}
+
+	.rutgers {
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		margin-bottom: 0px;
+		padding: 0px 0px
+	}
+
+	.rutgers h5 {
+		width: 97%;
+	}
+
+	.rockpaper {
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		padding: 0px 0px;
+	}
+
+	.rockpaper h5 {
+		width: 97%;
+	}
+
+}
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+

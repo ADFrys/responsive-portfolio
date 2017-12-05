@@ -79,6 +79,7 @@ body {
 
 .image_bio img {
 	float: left;
+	width: 30%;
 }
 
 .Bioparagraph {
@@ -192,7 +193,67 @@ textarea {
 	left: 0;
 }
 
+
 @media screen and (max-width: 980px) {
+
+	.header h1 {
+		margin-left: 40px;
+	}
+
+	.main-content {
+		padding: 10px;
+		margin-bottom: 20px;
+		width: 75%;
+	}
+
+	.p2 {
+		padding-top: 10px;
+	}
+
+
+	.main-container {
+		width: 60%;
+		padding-bottom: 20px;
+	}
+
+
+	input[type=text] {
+		width: 95%;
+	}
+
+	input[type=email] {
+		width: 95%;
+	}
+
+	textarea {
+		width: 95%;
+	}
+
+}
+
+@media screen and (max-width: 980px) and (min-width: 769px){
+
+	.header nav {
+		float: left;
+		padding-left: 275px;
+	}
+
+	.main-container img {
+		width: 95%;
+		padding-left: 3%;
+	}
+
+	.main-container p {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+	.sidebar {
+		float: left;
+		width: 25%;
+		margin-left: 50%;
+	}
 
 }
 
@@ -205,17 +266,17 @@ textarea {
 	}
 
 	.header {
-		width: 100%;
+		width: 93%;
 	}
 
 	.main-container {
-		width: 100%;
+		width: 90%;
 		padding-bottom: 20px;
 		
 	}
 
 	.sidebar {
-		width: 100%;
+		width: 90%;
 		margin-left: 0px;
 		position: static;
 		margin-top: -100px;
@@ -224,18 +285,22 @@ textarea {
 	}
 
 	.sidebar hr {
-	margin-bottom: 20px;
-	text-align: left;
-	margin-left: 0px;
-}
-
-/*	.image_bio img {
-		width: 50%;*/
+		margin-bottom: 20px;
+		text-align: left;
+		margin-left: 0px;
+		width: 97%;
 	}
 
-	/*.Bioparagraph p {
-		width: 100%;*/
+	input[type=text] {
+		width: 95%;
+	}
 
+	input[type=email] {
+		width: 95%;
+	}
+
+	textarea {
+		width: 95%;
 	}
 
 }
@@ -245,5 +310,43 @@ textarea {
 	.header {
 		display: static;
 	}
+
+	.main-container p {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+	.main-container img {
+		width: 100%;
+	}
+
+	.header h1 {
+		width: 100%;
+		margin-left: 0px;
+		pointer-events: none;
+	}
+
+	.header nav {
+		width: 100%;
+		background-color: #ffffff;
+		margin-bottom: 20px;
+	}
+
+	.header a {
+		border: none;
+		width: 100%;
+		margin-left: 60px;
+	}
 	
 }
+
+@media screen and (max-width: 576px) {
+	.header a {
+		margin-left: 20px;
+	}
+
+
+}
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
