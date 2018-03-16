@@ -95,7 +95,7 @@
 	line-height: 35px;
 }
 
-.rutgers {
+.burger {
 	background: #ffffff url(../images/nature-q-c-640-480-2.jpg) top left no-repeat;
 	width: 256px;
 	height: 190px;
@@ -103,7 +103,7 @@
 	margin: 37px 30px 30px 30px;
 }
 
-.rutgers h5 {
+.burger h5 {
 	margin-top: 130px;
 	margin-bottom: 10px;
 	background-color: #4aaaa5;
@@ -114,7 +114,7 @@
 	line-height: 35px;
 }
 
-.rutgers h5:hover {
+.burger h5:hover {
 	margin-top: 130px;
 	margin-bottom: 10px;
 	background-color: #666666;
@@ -195,7 +195,7 @@
 		width: 97%;
 	}
 
-	.rutgers {
+	.burger {
 		clear: both;
 		width: 100%;
 		margin-top: 20px;
@@ -204,7 +204,7 @@
 		padding: 0px 0px
 	}
 
-	.rutgers h5 {
+	.burger h5 {
 		width: 97%;
 	}
 
@@ -260,7 +260,7 @@
 		width: 97%;
 	}
 
-	.rutgers {
+	.burger {
 		clear: both;
 		width: 100%;
 		margin-top: 20px;
@@ -269,7 +269,7 @@
 		padding: 0px 0px
 	}
 
-	.rutgers h5 {
+	.burger h5 {
 		width: 97%;
 	}
 
